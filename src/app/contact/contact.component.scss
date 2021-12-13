@@ -1,0 +1,19 @@
+
+.contact_container {
+  padding: 20px;
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+    .container:nth-child(1) {
+      display: grid;
+      grid: 10px;
+    }
+
+    button {
+      padding: 10px;
+    }
+  }
+}
